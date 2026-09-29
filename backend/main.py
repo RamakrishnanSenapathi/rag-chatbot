@@ -44,7 +44,8 @@ def startup_event():
 # React frontend connection
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",
+                   "https://rag-chatbot-mu-red.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
