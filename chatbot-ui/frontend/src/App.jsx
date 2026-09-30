@@ -47,7 +47,7 @@ function App() {
               <p>↓</p>
               <p>🔢 Gemini Embeddings</p>
               <p>↓</p>
-              <p>🗄️ FAISS</p>
+              <p>🗄️ Pinecone</p>
               <p>↓</p>
               <p>🤖 Gemini LLM</p>
             </div>

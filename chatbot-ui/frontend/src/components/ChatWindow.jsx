@@ -104,7 +104,7 @@ const handleSend = async (question) => {
           <ChatInput onSend={handleSend} loading={loading} />
 
           <p className="mt-2 text-center text-xs text-slate-400">
-            Powered by Gemini + LangChain + FAISS
+            Powered by Gemini + LangChain + Pinecone
           </p>
         </div>
       </div>
